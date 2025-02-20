@@ -11,7 +11,6 @@ function App() {
     <div className="container">
       <Header />
       <Card1 />
-
       <img className="laying-down-image" src="/laying-down.png" />
       <Card2 />
       <BarTitle />
