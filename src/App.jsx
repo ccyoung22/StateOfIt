@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "./Header/Header.jsx";
 import Card1 from "./Card1/Card1.jsx";
+import FirstThingsFirst from "./FirstThingsFirst/FirstThingsFirst.jsx";
 
 import "./App.css";
 
@@ -9,6 +10,7 @@ function App() {
     <div className="container">
       <Header />
       <Card1 />
+      <FirstThingsFirst />
     </div>
   );
 }
