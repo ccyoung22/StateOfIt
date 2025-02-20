@@ -17,7 +17,7 @@ function Card1() {
           know.
         </p>
         <div className={styles.imageWrapper}>
-          <img src="/public/STATEOFYOU!.png" alt="Image" />
+          <img src="/STATEOFYOU!.png" alt="Image" />
         </div>
       </div>
       <p className={styles.title}>Before React (with vanilla JS or jQuery)</p>
