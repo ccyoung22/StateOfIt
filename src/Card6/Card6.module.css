@@ -1,0 +1,65 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: "NeneMetanaBold";
+
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+br {
+  margin-bottom: 15px;
+  display: block;
+  content: "";
+}
+
+.para6 {
+  font-family: "NeneMetanaBold";
+  font-weight: 800;
+  font-size: 18px;
+  margin: 30px;
+}
+
+.textCard2Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0;
+  line-height: 1.6;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between; /* Distributes space between the buttons */
+  gap: 20px;
+}
+
+button {
+  color: red;
+  font-family: "montserrat";
+  border: solid 2px;
+  border-radius: 20px;
+  padding: 0 20px 0 20px;
+  height: 80px;
+  font-size: 18px;
+  background-color: transparent;
+  width: 400px; /* Each button takes up 1/3 of the width */
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: rgb(255, 30, 0);
+  color: antiquewhite;
+}
+
+.answer {
+  padding: 20px 20px 0 20px;
+}

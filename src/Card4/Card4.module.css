@@ -7,10 +7,9 @@
 }
 
 .title {
-  font-family: "fraunces";
+  font-family: "NeneMetanaBold";
   color: rgb(255, 30, 0);
-  font-style: italic;
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 20px;
   margin-top: 20px;
 }

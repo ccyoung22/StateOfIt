@@ -23,11 +23,11 @@ export default function CocktailStateCard() {
   return (
     <div className={styles.card}>
       <div className={styles.buttons}>
-        <button className={styles.button} onClick={handleDrink}>
-          Drink
+        <button className={styles.button2} onClick={handleDrink}>
+          drink
         </button>
-        <button className={styles.button} onClick={handleOrder}>
-          Order
+        <button className={styles.button2} onClick={handleOrder}>
+          order
         </button>
       </div>
 

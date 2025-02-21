@@ -1,0 +1,35 @@
+.textcontainer7 {
+  border-top: 2px solid rgb(0, 0, 0);
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+}
+
+.para7title {
+  margin: 30px;
+  font-family: "fraunces";
+  text-align: center;
+  font-size: 30px;
+  color: rgb(255, 30, 0);
+}
+
+.para8title {
+  margin: 60px;
+  font-family: "fraunces";
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.para7 {
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 20px;
+}
+
+.champtower {
+  width: 400px;
+  margin-top: 50px;
+}

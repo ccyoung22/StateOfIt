@@ -38,18 +38,22 @@ export default function Card5() {
             </li>
           </ol>
           <br />
-          For example -
+          <p className={styles.titlebottom}>For example -</p>
           <br />
           Setting state like this {"won't"} work and could break your code:
           <br />
-          {"<button onClick={setCount(count + 1)}></button> (runs on render)"}
+          <p className={styles.whitetext}>
+            {"<button onClick={setCount(count + 1)}></button> (runs on render)"}
+          </p>
           <br />
           Instead, we can wrap the state update in an anonymous function, so it
           only runs when the button is clicked, not when the page loads:
           <br />
-          {
-            "<button onClick={() => setCount(count + 1)}></button> (runs on click)"
-          }
+          <p className={styles.whitetext}>
+            {
+              "<button onClick={() => setCount(count + 1)}></button> (runs on click)"
+            }
+          </p>
           <br />
           The only difference is that we’ve wrapped our setCount call inside an
           anonymous function!

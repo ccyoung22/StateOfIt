@@ -7,7 +7,7 @@
   align-items: center;
   width: 1000px;
   font-family: "montserrat";
-  margin-right: 100px;
+  margin-right: 20px;
 }
 
 .buttons {
@@ -16,17 +16,17 @@
   gap: 10px;
 }
 
-.button {
+.button2 {
   background-color: transparent;
   color: rgb(255, 30, 0);
   border: solid rgb(255, 30, 0);
-  padding: 18px 40px;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 24px;
   transition: background-color 0.3s ease;
-  font-family: "fraunces";
+  font-family: NeneMetanaBold;
   margin: 30px;
+  width: 160px;
 }
 
 .button:hover {
