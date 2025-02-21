@@ -40,8 +40,10 @@ export default function Card4() {
           customer. Each waiter (state) tracks their own customer’s drink,
           ensuring accurate and organised service.
           <br />
-          This is how React manages complex UIs — by breaking them into smaller,
-          manageable pieces, each with its own state.
+          <p className={styles.title9}>
+            This is how React manages complex UIs — by breaking them into
+            smaller, manageable pieces, each with its own state.
+          </p>
         </p>
       </div>
     </div>
