@@ -1,0 +1,83 @@
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1000px;
+  font-family: "montserrat";
+  margin-right: 100px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  background-color: transparent;
+  color: rgb(255, 30, 0);
+  border: solid rgb(255, 30, 0);
+  padding: 18px 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 22px;
+  transition: background-color 0.3s ease;
+  font-family: "fraunces";
+  margin: 30px;
+}
+
+.button:hover {
+  background-color: rgb(255, 30, 0);
+  color: antiquewhite;
+}
+
+.illustrationRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.image {
+  width: 2000px;
+  height: auto;
+  padding: 0px;
+}
+
+.imageGlass {
+  width: 180px;
+  margin-top: 160px;
+  margin-left: 40px;
+}
+
+.thoughtBubble {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 300px;
+  padding: 0px;
+}
+
+.imageThought {
+  width: 2000px;
+  height: auto;
+  padding: 0px;
+}
+
+.orderText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-weight: 800;
+  color: black;
+  text-align: center;
+  font-family: "montserrat";
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+}
