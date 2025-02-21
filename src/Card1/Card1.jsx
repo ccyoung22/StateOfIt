@@ -10,7 +10,7 @@ function Card1() {
           state of it!!
           <br />
           If you’re new to the world of React, you may have seen the word state
-          being banded around, but what actually is state???
+          being banded around, but what actually is state?
           <br />
           State is like a snapshot that represents what’s going on at a specific
           moment. It’s the memory of the present — a little mind-bending, I

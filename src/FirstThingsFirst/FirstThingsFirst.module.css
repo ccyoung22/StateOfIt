@@ -1,7 +1,7 @@
 .container {
   width: 90%;
   border-style: solid;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
   height: 100px;
   overflow: hidden; /* Hide the text when it moves out of the container */

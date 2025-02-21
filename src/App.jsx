@@ -4,6 +4,7 @@ import Card1 from "./Card1/Card1.jsx";
 import BarTitle from "./FirstThingsFirst/FirstThingsFirst.jsx";
 import Card2 from "./Card1/Card2/Card2.jsx";
 import Card3 from "./Card3/Card3.jsx";
+import Card4 from "./Card4/Card4.jsx";
 
 import "./App.css";
 
@@ -16,6 +17,7 @@ function App() {
       <Card2 />
       <BarTitle />
       <Card3 />
+      <Card4 />
     </div>
   );
 }
