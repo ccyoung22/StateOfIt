@@ -9,49 +9,53 @@ const Quiz = () => {
     {
       question: "1. What does React’s virtual DOM help with?",
       options: [
-        "Efficiently updating only changed parts of the UI",
-        "Directly editing the real DOM",
-        "Saving state to a database",
+        "A. Efficiently updating only changed parts of the UI",
+        "B. Directly editing the real DOM",
+        "C. Saving state to a database",
       ],
       correctAnswer: "A",
     },
     {
       question: "2. What triggers a component re-render in React?",
-      options: ["A page refresh", "A change in state or props", "A new import"],
+      options: [
+        "A. A page refresh",
+        "B. A change in state or props",
+        "C. A new import",
+      ],
       correctAnswer: "B",
     },
     {
       question:
         "3. What was the main issue with direct DOM manipulation before React?",
       options: [
-        "It was hard to manage as projects grew",
-        "It made pages load too fast",
-        "It required TypeScript",
+        "A. It was hard to manage as projects grew",
+        "B. It made pages load too fast",
+        "C. It required TypeScript",
       ],
       correctAnswer: "A",
     },
     {
       question:
         "4. Which hook do you use to manage state in a functional component?",
-      options: ["useEffect", "useState", "useRef"],
+      options: ["A. useEffect", "B. useState", "C. useRef"],
       correctAnswer: "B",
     },
     {
       question:
         "5. What happens if you pass a state update directly in a JSX event handler?",
       options: [
-        "It will only run when the event is triggered",
-        "It will run immediately when the component renders",
-        "It will update the state without triggering a re-render",
+        "A. It will only run when the event is triggered",
+        "B. It will run immediately when the component renders",
+        "C. It will update the state without triggering a re-render",
       ],
       correctAnswer: "B",
     },
     {
       question: "6. What kind of data should be stored in state?",
       options: [
-        "Static data that doesn’t change",
-        "Dynamic data that changes over time or with user interaction",
-        "Functions or constants",
+        "A. Static data that doesn’t change",
+        "B. Dynamic data that changes over time or with user interaction",
+        "C. Functions or constants",
       ],
       correctAnswer: "B",
     },
