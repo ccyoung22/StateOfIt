@@ -32,6 +32,16 @@ export default function Card4() {
           <br />
           Just like React re-renders only the changed component when state
           updates.
+          <br />
+          One waiter and one customer? Easy. But what if there are 10 customers,
+          each ordering different drinks?
+          <br />
+          In React, you would use 10 separate state variables — one for each
+          customer. Each waiter (state) tracks their own customer’s drink,
+          ensuring accurate and organised service.
+          <br />
+          This is how React manages complex UIs — by breaking them into smaller,
+          manageable pieces, each with its own state.
         </p>
       </div>
     </div>
